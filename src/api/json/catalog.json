@@ -4144,20 +4144,13 @@
     {
       "name": "prometheus.rules.json",
       "description": "Prometheus rules file",
-      "fileMatch": [
-        "*.rules.yml",
-        "*.rules.yaml",
-        "*rules.yml",
-        "*rules.yaml",
-        "rules.yml",
-        "rules.yaml"
-      ],
+      "fileMatch": ["*.rules"],
       "url": "https://json.schemastore.org/prometheus.rules.json"
     },
     {
       "name": "prometheus.rules.test.json",
       "description": "Prometheus rules test file",
-      "fileMatch": ["*.tests.yml", "*.tests.yaml", "*.test.yml", "*.test.yaml"],
+      "fileMatch": ["*.rules.test"],
       "url": "https://json.schemastore.org/prometheus.rules.test.json"
     },
     {
